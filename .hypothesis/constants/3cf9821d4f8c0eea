@@ -1,4 +1,0 @@
-# file: C:\Users\artur\AppData\Roaming\Python\Python314\site-packages\PyPDF2\__init__.py
-# hypothesis_version: 6.150.2
-
-['DocumentInformation', 'PageObject', 'PageRange', 'PaperSize', 'PasswordType', 'PdfFileMerger', 'PdfFileReader', 'PdfFileWriter', 'PdfMerger', 'PdfReader', 'PdfWriter', 'Transformation', '__version__']

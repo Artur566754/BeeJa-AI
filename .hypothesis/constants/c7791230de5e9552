@@ -1,4 +1,0 @@
-# file: C:\Users\artur\AppData\Roaming\Python\Python314\site-packages\PyPDF2\generic\_rectangle.py
-# hypothesis_version: 6.150.2
-
-['3.0.0', 'RectangleObject', 'bottom', 'ensureIsNumber', 'getHeight', 'getLowerLeft', 'getLowerLeft_x', 'getLowerLeft_y', 'getLowerRight', 'getLowerRight_x', 'getLowerRight_y', 'getUpperLeft', 'getUpperLeft_x', 'getUpperLeft_y', 'getUpperRight', 'getUpperRight_x', 'getUpperRight_y', 'getWidth', 'height', 'left', 'lowerLeft', 'lowerRight', 'lower_left', 'lower_right', 'right', 'setLowerLeft', 'setLowerRight', 'setUpperLeft', 'setUpperRight', 'top', 'upperLeft', 'upperRight', 'upper_left', 'upper_right', 'width']

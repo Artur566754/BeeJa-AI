@@ -1,4 +1,0 @@
-# file: C:\Users\artur\Documents\Коллелж\video camera\src\vocabulary.py
-# hypothesis_version: 6.150.2
-
-['Vocabulary', 'char_to_idx', 'idx_to_char', 'r', 'utf-8', 'vocab_size', 'w']

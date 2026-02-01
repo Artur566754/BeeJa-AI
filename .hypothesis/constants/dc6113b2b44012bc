@@ -1,4 +1,0 @@
-# file: C:\Users\artur\Documents\Коллелж\BeeJaAI\src\tokenizer.py
-# hypothesis_version: 6.150.2
-
-[100, 1000, 5000, 50000, ' </w>', '</w>', '<BOS>', '<EOS>', '<PAD>', '<UNK>', '\\w+|[^\\w\\s]', 'char_vocab', 'is_trained', 'merges', 'r', 'utf-8', 'vocab', 'vocab_size', 'w']
