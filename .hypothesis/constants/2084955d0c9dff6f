@@ -1,0 +1,4 @@
+# file: C:\Users\artur\Documents\Коллелж\BeeJaAI\src\transformer_model.py
+# hypothesis_version: 6.150.2
+
+[0.0, 0.02, 0.9, 1.0, '.', 'bpe', 'char_to_idx', 'character', 'config', 'cpu', 'dropout', 'embedding_dim', 'epoch', 'greedy', 'hidden_dim', 'idx_to_char', 'loss', 'max_seq_length', 'merges', 'model_state_dict', 'nucleus', 'num_heads', 'num_layers', 'optimizer_state', 'step', 'tokenizer', 'top_k', 'training_info', 'type', 'vocab', 'vocab_size']

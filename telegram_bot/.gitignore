@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+
+# AI Models
+models/*.pth
+models/*.pt
+
+# Datasets (если большие)
+datasets/*.pdf
+datasets/*.docx
+
+# Bot data
+bot_data/
+
+# Docker
+.env
+
+# Logs
+*.log
+
+# OS
+.DS_Store
+Thumbs.db

@@ -1,0 +1,4 @@
+# file: C:\Users\artur\Documents\Коллелж\BeeJaAI\src\training_pipeline.py
+# hypothesis_version: 6.150.2
+
+[0.001, 1.0, 100, 'BPETokenizer', 'Training Progress', 'TransformerModel', 'avg_loss', 'batch', 'batches', 'epoch', 'loss', 'lr', 'perplexity', 'transformer_blocks']

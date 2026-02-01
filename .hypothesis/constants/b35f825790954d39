@@ -1,0 +1,4 @@
+# file: C:\Users\artur\Documents\Коллелж\BeeJaAI\src\conversation_context.py
+# hypothesis_version: 6.150.2
+
+[512, 'assistant', 'user', '{role}: {content}\n']
