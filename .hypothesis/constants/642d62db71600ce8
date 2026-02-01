@@ -1,0 +1,4 @@
+# file: C:\Users\artur\Documents\Коллелж\video camera\src\model.py
+# hypothesis_version: 6.150.2
+
+[1.0, 'char_to_idx', 'embedding_dim', 'hidden_dim', 'idx_to_char', 'model_state_dict', 'num_layers', 'vocab_size', 'vocabulary']

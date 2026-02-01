@@ -1,0 +1,156 @@
+📦 СПИСОК ФАЙЛОВ ДЛЯ ЗАГРУЗКИ НА СЕРВЕР
+==========================================
+
+✅ ЧТО НУЖНО ЗАГРУЗИТЬ:
+
+📁 telegram_bot/
+├── bot.py                          ⭐ ОБЯЗАТЕЛЬНО
+├── requirements.txt                ⭐ ОБЯЗАТЕЛЬНО
+├── Dockerfile                      ⭐ ОБЯЗАТЕЛЬНО
+├── docker-compose.yml              ⭐ ОБЯЗАТЕЛЬНО
+├── START_HERE.md                   📖 Начни здесь!
+├── QUICK_START.md                  📖 Быстрый старт
+├── ДЛЯ_АРТУРА.md                   📖 Твоя инструкция
+├── DEPLOY_INSTRUCTIONS.md          📖 Полная инструкция
+├── CHECKLIST.md                    📖 Чеклист
+├── EXAMPLES.md                     📖 Примеры
+├── README.md                       📖 Документация
+├── .gitignore                      🔒 Для Git
+└── .env.example                    🔒 Пример конфига
+
+📁 src/                              ⭐ ОБЯЗАТЕЛЬНО (вся папка)
+├── __init__.py
+├── model.py
+├── dataset_loader.py
+├── training_pipeline.py
+├── chat_interface.py
+├── vocabulary.py
+└── config.py
+
+📄 main.py                           ⭐ ОБЯЗАТЕЛЬНО
+
+📁 datasets/                         ⭐ ОБЯЗАТЕЛЬНО (вся папка)
+├── initial_dataset.txt
+├── training_data.txt
+├── monolog.txt
+├── monolog2.txt
+├── hello_my_bro.txt
+├── kniga_psihologiy.txt
+├── kniga_python.txt
+├── kniga_matematika.txt
+└── [все остальные твои файлы]
+
+==========================================
+
+📋 СТРУКТУРА НА СЕРВЕРЕ:
+
+/home/your_user/ai-telegram-bot/
+├── telegram_bot/
+│   ├── bot.py
+│   ├── requirements.txt
+│   ├── Dockerfile
+│   ├── docker-compose.yml
+│   ├── datasets/           (создастся автоматически)
+│   ├── models/             (создастся автоматически)
+│   └── bot_data/           (создастся автоматически)
+├── src/
+│   └── [все файлы AI модели]
+├── main.py
+└── datasets/
+    └── [все твои книги]
+
+==========================================
+
+⚡ МИНИМАЛЬНЫЙ НАБОР (если мало места):
+
+ОБЯЗАТЕЛЬНО:
+✅ telegram_bot/bot.py
+✅ telegram_bot/requirements.txt
+✅ telegram_bot/Dockerfile
+✅ telegram_bot/docker-compose.yml
+✅ src/ (вся папка)
+✅ main.py
+✅ datasets/initial_dataset.txt
+✅ datasets/training_data.txt
+
+ОПЦИОНАЛЬНО (но рекомендуется):
+📖 Все .md файлы (документация)
+📚 Остальные датасеты (книги)
+
+==========================================
+
+💾 РАЗМЕР ФАЙЛОВ (примерно):
+
+telegram_bot/bot.py          ~15 KB
+telegram_bot/requirements.txt ~200 B
+telegram_bot/Dockerfile      ~500 B
+telegram_bot/docker-compose.yml ~500 B
+src/ (вся папка)             ~50 KB
+main.py                      ~5 KB
+datasets/ (зависит от книг)  ~1-100 MB
+
+ИТОГО: ~2-100 MB (зависит от размера книг)
+
+==========================================
+
+🚀 КАК ЗАГРУЗИТЬ:
+
+Вариант 1: Архив
+1. Создай ZIP архив с этими файлами
+2. Загрузи на сервер через FileZilla
+3. Распакуй на сервере: unzip ai-telegram-bot.zip
+
+Вариант 2: Прямая загрузка
+1. Подключись через FileZilla
+2. Загрузи папки и файлы напрямую
+
+Вариант 3: Git
+1. Создай репозиторий
+2. Закоммить файлы
+3. На сервере: git clone
+
+Вариант 4: SCP (командная строка)
+scp -r telegram_bot/ src/ main.py datasets/ user@server:/path/
+
+==========================================
+
+✅ ПРОВЕРКА ПОСЛЕ ЗАГРУЗКИ:
+
+На сервере выполни:
+
+cd /home/user/ai-telegram-bot/telegram_bot
+ls -la
+
+Должны быть:
+✅ bot.py
+✅ requirements.txt
+✅ Dockerfile
+✅ docker-compose.yml
+
+cd ../src
+ls -la
+
+Должны быть:
+✅ model.py
+✅ dataset_loader.py
+✅ training_pipeline.py
+✅ chat_interface.py
+✅ vocabulary.py
+✅ config.py
+
+cd ../datasets
+ls -la
+
+Должны быть:
+✅ initial_dataset.txt
+✅ [твои книги]
+
+==========================================
+
+🎯 ГОТОВО К ЗАПУСКУ!
+
+Теперь можешь запустить:
+cd /home/user/ai-telegram-bot/telegram_bot
+docker-compose up -d
+
+==========================================
